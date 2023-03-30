@@ -1,0 +1,71 @@
+.App__invoice {
+    height: 100%;
+    background: repeating-linear-gradient(
+        to right,
+        #f6dada -30px,
+    #f2d1d1 25px,
+    #f5f7f8 28px,
+    #fcfdfe 45px
+    ) 
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.left__txt{
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    column-gap: -89px;
+    align-items: flex-end;
+}
+
+.left__txt p{
+    margin-top: -15px;
+}
+
+.invoice__secondary{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    padding: 3px;
+    border: 2.8px solid black;
+}
+
+/* 
+
+.grid__two {
+    height: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 10px;
+}
+.table__side {
+    padding: 30px;
+    display: flex;
+}
+
+
+
+.common {
+    display: flex;
+    flex-direction: row;
+} */
+
+.grid__two {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: start;
+}
+
+.grid__two__five{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 0px;
+    justify-items: start;
+}
